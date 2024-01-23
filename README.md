@@ -15,5 +15,7 @@ Normally we have to install and uninstall windows service using InstallUtil.exe.
 - Open powershell with Admin mode from bin folder where exe exists
 - Put command for installing the service
 - .\SelfInstalledWindowsService.exe -i
+- Find "SelfInstalledService" in Services app
 - Put command for uninstalling the service
 - .\SelfInstalledWindowsService.exe -u
+- It will remove "SelfInstalledService" from Services app
